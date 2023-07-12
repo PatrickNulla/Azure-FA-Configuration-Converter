@@ -2,7 +2,7 @@
 
 A .NET console application used to convert Local Azure Function App Configuration to Azure DevOps Release Pipeline Configuration and Azure Function App Configuration.
 
-[For the Python version, click here.](https://github.com/PatrickNulla/Azure-FunctionApp-Configuration-Converter)
+[For the Python version, click here.](https://github.com/PatrickNulla/Python-LocalAzureFAConfig-Converter)
 
 ## Prerequisites
 - .NET 6.0 Runtime
