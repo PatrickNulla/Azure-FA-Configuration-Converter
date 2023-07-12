@@ -129,9 +129,7 @@ For example, you have this converter configuration:
                     ]
                 },
                 {
-                    "
-
-names": [
+                    "names": [
                         "production-paypal"
                     ],
                     "path": [
@@ -238,6 +236,7 @@ Sample\Generated Configs
 
 `-DBConnectionString "dev-connectionstring" -PaymentAPIKey "DevTestAPIKey"`
 
+**Sample Azure Function App config output**
 #### dev_Payment.json (Azure Function App Configuration)
 ```json
 [
