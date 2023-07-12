@@ -1,0 +1,38 @@
+{
+  "folderName": "BaseFolderName",
+  "pipelineFolderName": "ReleasePipelineFolderName",
+  "functionAppFolderName": "FunctionAppFolderName",
+  "writeMode": "Overwrite",
+  "isSorted": true,
+  "reversedSort": false,
+  "configPath": {
+    "env": [
+      {
+        "names": [
+          "list of your",
+          "environments"
+        ],
+        "path": [
+          [ "Path to your local config (e.g. local.settings.json)", "File name that it will use upon generation" ],
+          [ "Path to your local config (e.g. local.settings.json)", "e.g. FunctionApp1" ],
+          [ "E:/Sample/Path/To/Your/local.settings.json", "FileNameItWillUse" ]
+        ]
+      }
+    ]
+  },
+  "variables": {
+    "one-of-your": {
+      "VariableInYour": "sample-value-1"
+    },
+    "environments": {
+      "Configuration": "sample-value-2"
+    },
+    "in-the-names-list": {
+      "ThatHasAUniqueValuePerEnvironment": "#$one_of_your$#"
+    }
+  },
+  "ignoreVariables": [
+    "Configuration",
+    "ThatHasAUniqueValuePerEnvironment"
+  ]
+}

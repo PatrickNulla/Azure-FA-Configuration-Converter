@@ -131,3 +131,10 @@ $RECYCLE.BIN/
 .DS_Store
 
 _NCrunch*
+
+
+# Custom Ignore
+PN_*
+FileContentIndex
+v17
+DesignTimeBuild
